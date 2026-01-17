@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Admin Panel</h2>
+
+{% for game in games %}
+  <div class="mb-3">
+    <b>{{ game.title }}</b>
+    <a href="{{ url_for('delete_game', game_id=game.id) }}"
+       class="btn btn-danger btn-sm">Delete</a>
+  </div>
+{% endfor %}
+{% endblock %}

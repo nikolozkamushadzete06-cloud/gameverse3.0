@@ -1,0 +1,100 @@
+
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.card {
+    background-color: #111827;
+    border: 1px solid #1f2933;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.card-title {
+    color: #f9fafb;
+}
+
+.btn-primary {
+    background-color: #6366f1;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4f46e5;
+}
+
+.btn-danger {
+    background-color: #ef4444;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #dc2626;
+}
+
+.form-control {
+    background-color: #020617;
+    color: #f9fafb;
+    border: 1px solid #334155;
+}
+
+.form-control:focus {
+    background-color: #020617;
+    color: #f9fafb;
+    border-color: #6366f1;
+    box-shadow: none;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #020617;
+    border-top: 1px solid #1f2937;
+}
+
+.fixed-logo {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+    opacity: 0.8;
+}
+
+.fixed-logo:hover {
+    opacity: 2;
+}
+.page-content {
+    padding:2rem;
+}
+
+.game-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
