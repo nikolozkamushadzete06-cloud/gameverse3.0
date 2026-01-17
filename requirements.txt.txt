@@ -1,0 +1,10 @@
+flask
+flask-login
+flask-sqlalchemy
+flask-wtf
+gunicorn
+jinja2
+pip
+sqlalchemy
+werkzeug
+WTForms
